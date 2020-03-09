@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Oh My Dog - Homepage</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <p>Oh My Dog</p>
+      <div class="buttons">
+        <a class="button" href="./Oh My Dog - Homepage.html">Home</a>
+        <a class="button" href="./Oh My Dog - Price Listing.html">Prices</a>
+        <a class="button" href="">Testimonials</a>
+        <a class="button" href="./Oh My Dog - Contact Us.html">Contact Us</a>
+      </div>
+    </nav>
+    </header>
+  <br>
+
+  <h1>Contact Us</h1>
+  <form action="Submission.html" method="POST">    
+    <label for "name">Your name</label>
+    <input type="text" name="name" id="name">
+    <br>
+    <label for "phone">Phone number</label>
+    <input type="text" name="phone" id="phone" pattern="[0-9]{10,11}">
+    <br>
+    <label for "email">Email address</label>
+    <input type="text" name="email" id="email">
+    <br>
+    <label for "contact">Preferred method of contact</label>
+    <br>
+    <div class="radioButtons">
+      <input type="radio" name="contact" value="Email" />Email
+      <input type="radio" name="contact" value="Phone" />Phone
+    </div>
+    <br>
+    <label for"how did you hear about us?">How did you hear about us?</label>
+    <select name="how did you hear about us?" id="how did you hear about us?">
+      <option value="google">Internet search</option>
+      <option value="word of mouth">Word of mouth</option>
+      <option value="recommendation">Recommendation</option>
+      <option value="leaflet">Leaflet</option>
+      <option value="other">Other</option>
+    </select>
+    <br>
+    <label for "comment">Your query</label>
+    <br>
+    <textarea rows="10" name="comment" placeholder="We'd love to hear from you"></textarea>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+  <br>
+  </body>
+  </html>
+
